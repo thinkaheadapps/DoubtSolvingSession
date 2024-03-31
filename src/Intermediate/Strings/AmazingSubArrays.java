@@ -29,7 +29,7 @@ public class AmazingSubArrays {
         AmazingSubArrays solution = new AmazingSubArrays();
 
         // Test input string
-        String input = "example"; // You can change this to any string you want to test
+        String input = "example";
 
         // Call the solve method and print the result
         int result = solution.solve(input);
@@ -37,3 +37,16 @@ public class AmazingSubArrays {
     }
 
 }
+
+/*
+You are given a string S, and you have to find all the amazing substrings of S.
+
+An amazing Substring is one that starts with a vowel (a, e, i, o, u, A, E, I, O, U).
+
+Input
+
+Only argument given is string S.
+Output
+
+Return a single integer X mod 10003, here X is the number of Amazing Substrings in given the string.
+ */
